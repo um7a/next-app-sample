@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const assetPrefix =
-  process.env.NODE_ENV === "production" ? "next-app-sample" : "";
+  process.env.NODE_ENV === "production" ? "/next-app-sample" : "";
 
 export default function Home() {
   return (

@@ -30,8 +30,8 @@ const nextConfig = withMdx({
   // Support MDX files as pages:
   pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
   output: "export",
-  assetPrefix: "next-app-sample",
-  basePath: "next-app-sample",
+  assetPrefix: "/next-app-sample/",
+  basePath: "/next-app-sample",
 });
 
 export default nextConfig;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-const assetPrefix = process.env.assetPrefix ? process.env.assetPrefix : '';
+const assetPrefix = process.env.assetPrefix ? process.env.assetPrefix : "";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src=`${assetPrefix}/vercel.svg`
+              src={`${assetPrefix}/vercel.svg`}
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
@@ -33,7 +33,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src=`${assetPrefix}/next.svg`
+          src={`${assetPrefix}/next.svg`}
           alt="Next.js Logo"
           width={180}
           height={37}

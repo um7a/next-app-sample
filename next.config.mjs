@@ -29,7 +29,7 @@ const withMdx = nextMdx({
 const nextConfig = withMdx({
   // Support MDX files as pages:
   pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
-  output: "out",
+  output: "export",
 });
 
 export default nextConfig;
